@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "haberno-printer",
+  "version": "1.0-SNAPSHOT",
+  "name": "haberno-printer",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/ptirt/haberno-printer"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.haberno.habernoprinter.LitematicaMixinMod"
+    ]
+  },
+  "mixins": [
+    "litematica-printer.mixins.json",
+    "litematica-printer-implementation.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
