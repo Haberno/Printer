@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "com/haberno/habernoprinter/implementation/mixin/MixinClientPlayerEntity": {
+      "tick": "Lnet/minecraft/class_746;method_5773()V"
+    },
+    "com/haberno/habernoprinter/mixin/PlayerMoveC2SPacketMixin": {
+      "<init>(DDDFFZZZ)V": "Lnet/minecraft/class_2828;<init>(DDDFFZZZ)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/haberno/habernoprinter/implementation/mixin/MixinClientPlayerEntity": {
+        "tick": "Lnet/minecraft/class_746;method_5773()V"
+      },
+      "com/haberno/habernoprinter/mixin/PlayerMoveC2SPacketMixin": {
+        "<init>(DDDFFZZZ)V": "Lnet/minecraft/class_2828;<init>(DDDFFZZZ)V"
+      }
+    }
+  }
+}

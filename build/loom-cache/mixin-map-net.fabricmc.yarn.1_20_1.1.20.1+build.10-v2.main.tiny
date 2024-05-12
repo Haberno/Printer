@@ -1,0 +1,3 @@
+v1	named	intermediary
+FIELD	com/haberno/habernoprinter/implementation/mixin/MixinClientPlayerEntity	Lnet/minecraft/client/MinecraftClient;	client	field_3937
+FIELD	com/haberno/habernoprinter/implementation/mixin/MixinClientPlayerEntity	Lnet/minecraft/client/network/ClientPlayNetworkHandler;	networkHandler	field_3944
